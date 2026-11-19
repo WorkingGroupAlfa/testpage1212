@@ -27,7 +27,7 @@ jobs:
           cp 3dstills-b.html _site/index.html
           cp 3dstills-b.html _site/3dstills-b.html
           cp portfolio-vortex.css portfolio-vortex.js _site/
-          cp vslwizzard.mp4 pattern-06.jpg _site/
+          cp vslwizzard.mp4 pattern-06.jpg website-3d.jpg _site/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
